@@ -38,7 +38,9 @@
 
     "fluxer": {
         "name": "Fluxer",
-        "url": "https://fluxer.app/"
+        "url": "https://fluxer.app/",
+        "tracking_issue": "https://github.com/fluxerapp/fluxer/issues/1173",
+        "wip": true
     },
 
     "tauri": {
