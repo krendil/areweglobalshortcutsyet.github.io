@@ -18,7 +18,9 @@
     "vencord": {
         "name": "Vencord",
         "url": "https://vencord.dev/",
-        "tracking_issue": "https://github.com/Vencord/Vesktop/issues/18"
+        "tracking_issue": "https://github.com/Vencord/Vesktop/issues/18",
+        "pull_request": "https://github.com/Vencord/Vesktop/pull/326",
+        "declined": true
     },
 
     "ulauncher": {
@@ -37,6 +39,13 @@
     "fluxer": {
         "name": "Fluxer",
         "url": "https://fluxer.app/"
-    }
+    },
 
+    "tauri": {
+        "name": "Tauri",
+        "url": "https://tauri.app/",
+        "tracking_issue": "https://github.com/tauri-apps/global-hotkey/issues/28",
+        "pull_request": "https://github.com/tauri-apps/global-hotkey/pull/172",
+        "wip": true
+    }
 }
