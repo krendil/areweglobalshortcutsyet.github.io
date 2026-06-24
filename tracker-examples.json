@@ -1,0 +1,60 @@
+{
+    "example-project-a": {
+        "name": "Declined Example",
+        "url": "https://www.example.org/",
+        "tracking_issue": "https://github.com/user/example-project/issues/67",
+        "wip": false,
+        "testing": false,
+        "done": false,
+        "declined": true
+    },
+
+    "example-project-b": {
+        "name": "Nothing Example",
+        "url": "https://www.example.org/"
+    },
+
+    "example-project-c": {
+        "name": "Completed Example",
+        "url": "https://www.example.org/",
+        "tracking_issue": "https://github.com/user/example-project/issues/67",
+        "pull_request": "https://github.com/user/example-project/pr/67",
+        "wip": true,
+        "testing": true,
+        "done": true,
+        "declined": false
+    },
+
+    "example-project-d": {
+        "name": "WIP Example",
+        "url": "https://www.example.org/",
+        "tracking_issue": "https://github.com/user/example-project/issues/67",
+        "pull_request": "https://github.com/user/example-project/pr/67",
+        "wip": true,
+        "testing": false,
+        "done": false,
+        "declined": false
+    },
+
+    "example-project-e": {
+        "name": "Testing Example",
+        "url": "https://www.example.org/",
+        "tracking_issue": "https://github.com/user/example-project/issues/67",
+        "pull_request": "https://github.com/user/example-project/pr/67",
+        "wip": true,
+        "testing": true,
+        "done": false,
+        "declined": false
+    },
+
+    "example-project-f": {
+        "name": "Issue Only Example",
+        "url": "https://www.example.org/",
+        "tracking_issue": "https://github.com/user/example-project/issues/67",
+        "pull_request": "https://github.com/user/example-project/pr/67",
+        "wip": false,
+        "testing": false,
+        "done": false,
+        "declined": false
+    }
+}

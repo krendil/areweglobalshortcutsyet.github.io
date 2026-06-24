@@ -1,60 +1,40 @@
 {
-    "example-project-a": {
-        "name": "Declined Example",
-        "url": "https://www.example.org/",
-        "tracking_issue": "https://github.com/user/example-project/issues/67",
-        "wip": false,
-        "testing": false,
-        "done": false,
+    "mumble": {
+        "name": "Mumble",
+        "url": "https://www.mumble.info/",
+        "tracking_issue": "https://github.com/mumble-voip/mumble/issues/5257"
+    },
+
+    "keepassxc": {
+        "name": "KeePassXC",
+        "url": "https://keepassxc.org/",
+        "tracking_issue": "https://github.com/keepassxreboot/keepassxc/issues/2281",
+        "pull_request": "https://github.com/keepassxreboot/keepassxc/pull/13359",
+        "done": true
+    },
+
+    "vencord": {
+        "name": "Vencord",
+        "url": "https://vencord.dev/",
+        "tracking_issue": "https://github.com/Vencord/Vesktop/issues/18"
+    },
+
+    "ulauncher": {
+        "name": "Ulauncher",
+        "url": "https://ulauncher.io/",
+        "tracking_issue": "https://github.com/Ulauncher/Ulauncher/issues/1139"
+    },
+
+    "obs": {
+        "name": "OBS Studio",
+        "url": "https://obsproject.com/",
+        "tracking_issue": "https://github.com/obsproject/obs-studio/issues/10538",
         "declined": true
     },
 
-    "example-project-b": {
-        "name": "Nothing Example",
-        "url": "https://www.example.org/"
-    },
-
-    "example-project-c": {
-        "name": "Completed Example",
-        "url": "https://www.example.org/",
-        "tracking_issue": "https://github.com/user/example-project/issues/67",
-        "pull_request": "https://github.com/user/example-project/pr/67",
-        "wip": true,
-        "testing": true,
-        "done": true,
-        "declined": false
-    },
-
-    "example-project-d": {
-        "name": "WIP Example",
-        "url": "https://www.example.org/",
-        "tracking_issue": "https://github.com/user/example-project/issues/67",
-        "pull_request": "https://github.com/user/example-project/pr/67",
-        "wip": true,
-        "testing": false,
-        "done": false,
-        "declined": false
-    },
-
-    "example-project-e": {
-        "name": "Testing Example",
-        "url": "https://www.example.org/",
-        "tracking_issue": "https://github.com/user/example-project/issues/67",
-        "pull_request": "https://github.com/user/example-project/pr/67",
-        "wip": true,
-        "testing": true,
-        "done": false,
-        "declined": false
-    },
-
-    "example-project-f": {
-        "name": "Issue Only Example",
-        "url": "https://www.example.org/",
-        "tracking_issue": "https://github.com/user/example-project/issues/67",
-        "pull_request": "https://github.com/user/example-project/pr/67",
-        "wip": false,
-        "testing": false,
-        "done": false,
-        "declined": false
+    "fluxer": {
+        "name": "Fluxer",
+        "url": "https://fluxer.app/"
     }
+
 }
