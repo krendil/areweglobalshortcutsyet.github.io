@@ -22,19 +22,21 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     const processedData = Object.values(data).map(app => {
         let percentage = 0.01;
-        if (app.declined) {
-            percentage = 0;
-        } else if (app.done) {
-            percentage = 100;
-        } else {
+        if (app.progress) percentage = app.progress;
+        else if (app.declined) percentage = 0;
+        else if (app.done) percentage = 100;
+        else {
             if (app.tracking_issue) percentage += 9.99;
             if (app.pull_request) percentage += 15;
             if (app.wip) percentage += 30;
             if (app.testing) percentage += 30;
         }
 
-        let reference = app.pull_request || app.tracking_issue;
-
+        let reference
+        if (app.reference_url) reference = app.reference_url;
+        else if (app.pull_request) reference = app.pull_request;
+        else if (app.tracking_issue) reference = app.tracking_issue;
+        
         let emoji = '🫥';
         if (app.done) emoji = '🥳';
         else if (app.declined) emoji = '🫠';
@@ -42,7 +44,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         else if (app.wip || app.testing) emoji = '🫣';
 
         let referenceText = 'None ' + emoji;
-        if (app.done) referenceText = 'Completed ' + emoji;
+        if (app.reference_text) referenceText = app.reference_text;
+        else if (app.done) referenceText = 'Completed ' + emoji;
         else if (app.declined) referenceText = 'Not Planned ' + emoji;
         else if (app.pull_request) referenceText = 'PR ' + emoji;
         else if (app.tracking_issue) referenceText = 'Issue ' + emoji;
