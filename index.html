@@ -16,14 +16,26 @@
         <div id="content">
             <p class="description">
                 Cataloging progress of
-                <a href="https://flatpak.github.io/xdg-desktop-portal/docs/doc-org.freedesktop.portal.GlobalShortcuts.html" target="_blank">
-                XDG GlobalShotcuts</a> integration for applications on Wayland.
+                <a href="#about" target="_blank">XDG GlobalShotcuts</a> integration for applications on Wayland.
             </p>
             <p class="description">
                 If you would like to add an application to track please submit a <a href="#contrib">pull request</a>.
             </p>
             <div id="progress" class="section">
                 <h1>Application Progress</h1>
+            </div>
+            <div id="about" class="section">
+                <h1>About GlobalShortcuts</h1>
+                <p>
+                    <a href="https://flatpak.github.io/xdg-desktop-portal/docs/doc-org.freedesktop.portal.GlobalShortcuts.html" target="_blank">GlobalShortcuts</a> is an <a href="https://flatpak.github.io/xdg-desktop-portal/docs/index.html" target="_blank">XDG Desktop Portal</a> implementation that enables applications on <a href="https://wayland.freedesktop.org/" target="_blank">Wayland</a> to register and use global keyboard shortcuts.
+                    It allows apps to respond to specific key combinations without needing direct access to all user input events.
+                </p>
+            </div>
+            <div id="why" class="section">
+                <h1>Why this matters</h1>
+                <p>
+                    Currently, some applications circumvent sandboxing and Wayland security defaults by requesting full input monitoring permissions instead of using GlobalShortcuts. This forces users to choose between application functionality and security. We want to track application support for the portal to highlight when developers move toward a secure "least privilege" model and support OS defaults.
+                </p>
             </div>
             <div id="contrib" class="section">
                 <h1>Submit an Application or Update</h1>
