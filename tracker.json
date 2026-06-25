@@ -55,7 +55,7 @@
     "elementary": {
         "name": "elementary",
         "url": "https://elementary.io/",
-        "tracking_issue": "https://github.com/elementary/portals/issues/185",
+        "tracking_issue": "https://github.com/elementary/portals/issues/185"
     },
 
     "gnome": {
