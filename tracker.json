@@ -75,7 +75,7 @@
     "chromium": {
         "name": "Chromium",
         "url": "https://www.chromium.org/Home/",
-        "pull_request": "https://chromium-review.googlesource.com/c/chromium/src/+/58714848",
+        "pull_request": "https://chromium-review.googlesource.com/c/chromium/src/+/5871484",
         "done": true
     },
 
