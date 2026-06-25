@@ -50,5 +50,40 @@
         "pull_request": "https://github.com/tauri-apps/global-hotkey/pull/172",
         "wip": true,
         "testing": true
+    },
+
+    "elementary": {
+        "name": "elementary",
+        "url": "https://elementary.io/",
+        "tracking_issue": "https://github.com/elementary/portals/issues/185",
+    },
+
+    "gnome": {
+        "name": "GNOME",
+        "url": "https://www.gnome.org/",
+        "pull_request": "https://gitlab.gnome.org/GNOME/xdg-desktop-portal-gnome/-/merge_requests/208",
+        "done": true
+    },
+
+    "kde": {
+        "name": "KDE",
+        "url": "https://kde.org/",
+        "pull_request": "https://invent.kde.org/plasma/xdg-desktop-portal-kde/-/merge_requests/80",
+        "done": true
+    },
+
+    "chromium": {
+        "name": "Chromium",
+        "url": "https://www.chromium.org/Home/",
+        "pull_request": "https://chromium-review.googlesource.com/c/chromium/src/+/58714848",
+        "done": true
+    },
+
+    "electron": {
+        "name": "Electron",
+        "url": "https://electronjs.org/",
+        "pull_request": "https://github.com/electron/electron/pull/45171",
+        "done": true
     }
+
 }
