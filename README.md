@@ -23,7 +23,7 @@ Examples: [tracker-examples.json](https://github.com/AreWeGlobalShortcutsYet/are
 
 ### About [GlobalShortcuts](https://flatpak.github.io/xdg-desktop-portal/docs/doc-org.freedesktop.portal.GlobalShortcuts.html)
 
-GlobalShortcuts is an XDG Desktop Portal implementation that enables applications on [Wayland](https://wayland.freedesktop.org/) to register and use global keyboard shortcuts. It allows apps to respond to specific key combinations without needing direct access to all user input events.
+GlobalShortcuts is an XDG Desktop Portal implementation that enables applications on [Wayland](https://wayland.freedesktop.org/) to register and use global keyboard shortcuts. It allows apps to respond to specific key combinations while unfocused without needing direct access to all user input events.
 
 ### Why this matters
 
